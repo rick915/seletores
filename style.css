@@ -1,0 +1,41 @@
+/* seletor global = seleciona todos os elementos da pagina ou de derteminado lugar*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+p{
+    color: red;
+}
+
+main{
+   margin-top: 1rem; 
+}
+
+/*  seletor pela classe*/
+
+.paragrafo{
+    border: 1px solid cyan ;
+    color:blue;
+    margin-top: 1rem;
+}
+
+/* seletor pelo id */
+
+#titulo{
+    color: green;
+    margin-bottom: 1rem;
+}
+
+/* seletor pelo atributo */
+
+input[type="password"] {
+    font-size: 3rem;
+}
+
+.login input{
+    font-size: 2rem;
+    color: #f00;
+}
